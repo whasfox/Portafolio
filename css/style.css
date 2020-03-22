@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=VT323&display=swap');
+
+body{
+font-family: 'Roboto', sans-serif;
+font-size: 16px;
+}
+
+header{
+width: 100%;
+height: auto;
+}
+
+.menu{
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99999;
+	transition: 0.3s all ease;
+}
+
+.texto{
+	font-size: 35px;
+	text-align: center;
+	font-weight: 500;
+	margin: 10px 0;
+	padding: 0 100px;
+}
+
+.pixel{
+	font-family: 'VT323', monospace;
+	text-align: center;
+	font-size: 45px;
+	font-weight: 700;
+	letter-spacing: 2px;
+	
+}
+
+#sobre{
+	margin: 35px 0;
+}
+.descripcion{
+	padding-top: 60px;
+	font-weight: 300;
+	font-size: 16px;
+}
+.descripcion h3{
+	font-weight: 500 !important;
+	padding-bottom: 15px;
+}
+
+#servicios{ 
+	padding: 30px 0;
+	text-align: center;
+}
+
+#servicios h3{
+	font-size: 40px;
+	font-weight: 300 !important;
+	padding: 15px 0;
+}
+
+#servicios i{
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 30px !important;
+}
+.color1{
+	padding: 35px 0;
+	border: 3px dashed #000;
+}
+
+.color2{
+	padding: 35px 0;
+	background-color: #2797FF;
+	border: 5px outset #28E7EE
+}
+
+.color3{
+	padding: 35px 0;
+	background-color: #F05AAD;
+	border: 5px inset #B61B97;
+}
+
+.color4{
+	padding: 35px 0;
+	background-color: #F5EF2B;
+	border: 5px groove #00E3F8
+}
+
+#proyectos h3{
+	padding-bottom: 10px;
+	font-weight: 300;
+	font-size: 50px;
+	border-bottom: 4px dotted #000;
+	margin: 50px 30px;
+	text-align: center;
+}
+
+
+#proyectos{
+	margin-top: 95px;
+	text-align: center;
+	background-color: #EFEAEA;
+}
+
+
+.proyectos-recientes{
+	margin: 25px 0;
+	background-color: #E3E3E3;
+}
+
+.imagen{
+	padding-bottom: 20px;
+	
+}
+
+.carousel-control-prev-icon:hover, .carousel-control-next-icon:hover{
+	background-color: rgba(61,61,61,0.76)
+}
+
+#info{
+	background-color: #1CEDFA;
+	color: #000;
+	font-size: 14px;
+	font-weight: 300;
+}
+
+#derechos{
+	background-color: #18CFDA;
+	color: rgba(57,57,57,0.66);
+	text-align: center;
+	font-size: 15px;
+}
+
+.redes i{
+	background-color: #00A5BE;
+	color: #fff;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	border-radius: 100%;
+	}
+
+#contactame{
+	margin: 50px 0;
+}
+
+#contactame h3{
+	font-size: 40px;
+	font-weight: 300;
+}
